@@ -1,0 +1,33 @@
+/* Custom Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand span {
+    color: #0d6efd;
+    /* Bootstrap primary blue */
+}
+
+.hero-section {
+    height: 100 vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: #f8f9fa;
+}
